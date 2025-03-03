@@ -13,6 +13,7 @@
         android:layout_height="50dp"
         android:layout_marginTop="100dp"
         android:text="@string/request_permission"
+        android:onClick="Request_For_permission"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -23,6 +24,7 @@
         android:layout_height="54dp"
         android:layout_marginTop="88dp"
         android:text="@string/cheack_permission"
+        android:onClick="Cheack_For_Permission"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
