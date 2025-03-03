@@ -24,4 +24,7 @@
     <string name="save_into_file">Save into File</string>
     <string name="name">Name</string>
     <string name="read_from_file">Read From File</string>
+    <string name="request_permission">Request Permission</string>
+    <string name="cheack_permission">Cheack Permission</string>
+    <string name="read_contact_permission">Read Contact Permission</string>
 </resources>
