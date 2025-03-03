@@ -23,4 +23,5 @@
     <string name="show_into_file">Show into File</string>
     <string name="save_into_file">Save into File</string>
     <string name="name">Name</string>
+    <string name="read_from_file">Read From File</string>
 </resources>

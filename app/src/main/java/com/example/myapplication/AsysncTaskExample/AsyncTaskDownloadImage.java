@@ -36,7 +36,6 @@ public class AsyncTaskDownloadImage extends AppCompatActivity {
             return insets;
         });
     }
-
     public void Download_Image(View view) {
         ImageDownload obj = new ImageDownload();
         try {
@@ -48,7 +47,6 @@ public class AsyncTaskDownloadImage extends AppCompatActivity {
             throw new RuntimeException(e);
         }
     }
-
     class ImageDownload extends AsyncTask<String,Void, Bitmap>{
 
         @Override
@@ -68,7 +66,6 @@ public class AsyncTaskDownloadImage extends AppCompatActivity {
             } catch (MalformedURLException e) {
                 throw new RuntimeException(e);
             }
-
         }
     }
 }

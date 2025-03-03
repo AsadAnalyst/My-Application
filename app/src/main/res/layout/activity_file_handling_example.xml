@@ -37,17 +37,18 @@
         android:id="@+id/button10"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/show_into_file"
+        android:layout_marginBottom="52dp"
         android:onClick="Show_From_File"
+        android:text="@string/read_from_file"
         app:layout_constraintBottom_toTopOf="@+id/txtfilehandling"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.42"
+        app:layout_constraintHorizontal_bias="0.419"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/txtfilehandling"
-        android:layout_width="234dp"
-        android:layout_height="62dp"
+        android:layout_width="343dp"
+        android:layout_height="85dp"
         android:layout_marginBottom="108dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
