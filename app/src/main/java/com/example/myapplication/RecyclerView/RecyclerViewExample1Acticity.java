@@ -1,5 +1,6 @@
 package com.example.myapplication.RecyclerView;
 
+import android.annotation.SuppressLint;
 import android.os.Bundle;
 
 import androidx.activity.EdgeToEdge;
@@ -13,6 +14,7 @@ import com.example.myapplication.R;
 
 public class RecyclerViewExample1Acticity extends AppCompatActivity {
     RecyclerView recyclerView;
+    @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
