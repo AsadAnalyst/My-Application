@@ -28,12 +28,14 @@ public class RecyclerViewExample1Acticity extends AppCompatActivity {
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_recycler_view_example1_acticity);
         recyclerView=findViewById(R.id.recyclerViewExample1);
+        LoadData();
         myAdapterRecyclerView=new MyAdapterRecyclerView(mobileList);
+
         RecyclerView.LayoutManager layoutManager=new LinearLayoutManager(getApplicationContext());
         recyclerView.setLayoutManager(layoutManager);
         recyclerView.setItemAnimator(new DefaultItemAnimator());
         recyclerView.setAdapter(myAdapterRecyclerView);
-        LoadData();
+
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);

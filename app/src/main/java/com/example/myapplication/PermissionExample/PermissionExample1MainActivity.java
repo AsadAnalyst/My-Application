@@ -45,6 +45,12 @@ TextView textView;
     }
 
     public void Cheack_For_Permission(View view) {
+        if (!cheack_Permission()){
+            textView.setText("Permission Deniad");
+        }
+        else {
+            textView.setText("Permission Granted");
+        }
     }
 
     public boolean cheack_Permission(){
