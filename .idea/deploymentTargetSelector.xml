@@ -8,9 +8,6 @@
       <SelectionState runConfigName="RecyclerViewExample1Acticity (1)">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
-      <SelectionState runConfigName="RecyclerViewExample1Acticity (2)">
-        <option name="selectionMode" value="DROPDOWN" />
-      </SelectionState>
       <SelectionState runConfigName="RecyclerViewExample1Acticity (3)">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
@@ -18,6 +15,9 @@
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
       <SelectionState runConfigName="RecyclerViewExample1Acticity (5)">
+        <option name="selectionMode" value="DROPDOWN" />
+      </SelectionState>
+      <SelectionState runConfigName="RecyclerViewExample1Acticity">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
     </selectionStates>
